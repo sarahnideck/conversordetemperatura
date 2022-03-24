@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Conversor de temperatura</title>
+</head>
+
+<body>
+    <script src="app.js"></script>
+
+    <section class="header">
+
+        <div class="banner">
+            <img class="titulo" src="/IMG/term.png">
+            <h1 class="page-title"> Conversor de temperaturas
+            </h1>
+            <br><br>
+
+    </section>
+
+    <section class="conversores">
+
+        <div class="escala1">
+            <label for="celsius">Insira a temperatura em graus Celsius (°C)</label><br><br>
+            <center><input type="numeric" id="celsius" size="2" maxlength="5" /><br>
+                <button type="submit" onclick="convCelsius()">Converter</button>
+            </center>
+            <br><br>
+            <p id="convUm">
+            </p>
+        </div>
+        <div class="escala2">
+            <label for="celsius">Insira a temperatura em Kelvin (K)</label><br><br>
+            <center><input type="numeric" id="kelvin" size="2" maxlength="5" /><br>
+                <button type="submit" onclick="convKelvin()">Converter</button>
+            </center>
+            <br><br>
+            <p id="convDois">
+            </p>
+        </div>
+
+        <div class="escala3">
+            <label for="celsius">Insira a temperatura em graus Farenheit (°F)</label><br><br>
+            <center><input type="numeric" id="farenheit" size="2" maxlength="5" /><br>
+                <button type="submit" onclick="convFaren()">Converter</button>
+            </center>
+            <br><br>
+            <p id="convTres">
+            </p>
+        </div>
+    </section>
+    </div>
+    <a href="https://alura.com.br/" target="_blank">
+        <img src="https://www.alura.com.br/assets/img/home/alura-logo.svg" alt="" class="alura-logo"></a>
+
+</body>
+<!------------rodape--------------->
+
+<footer>
+    <section class="rodape">
+
+        <div class="icones">
+            <br><br>
+            <a class="links" href="https://github.com/sarahnideck" target="blank">
+                <img class="social" src="IMG/gthb.png" alt="GitHub">
+            </a>
+            <a class="links" href="https://www.linkedin.com/in/sarah-nideck-86130a82/" target="blank">
+                <img class="social" src="IMG/lnkin.png" alt="LinkedIN">
+            </a>
+        </a>
+        <a class="links" href="mailto:sarahnideck@yahoo.com.br" target="blank">
+            <img class="social" src="IMG/email.png" alt="e-mail">
+        </a>
+
+            <p>
+                <a href="https://alura.com.br/" target="_blank"><img
+                        src="https://www.alura.com.br/assets/img/imersoes/dev-2021/logo-imersao-conversor-de-moedas.svg"
+                        class="icone"></a>
+            </p>
+        </div>
+        <div class="copyright">
+            <p>Converta facilmente temperaturas em graus Celsius, graus Farenheit e Kelvin entre si.</p>
+
+            <p>Página Desenvolvida por Sarah Nideck durante a Imersão Dev da Alura | 2022. Imagens de banner e ícones de redes por Pngwing </p>
+
+            <p>© Todos os Direitos Reservados</p>
+        </div>
+
+    </section>
+</footer>
+
+</html>
