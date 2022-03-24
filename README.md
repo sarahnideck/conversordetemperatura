@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="./IMG/term.png" width="200px"/>
+  <img src="./IMG/term.png" width="150px"/>
 </p> 
 
  # Conversor de Temperatura
